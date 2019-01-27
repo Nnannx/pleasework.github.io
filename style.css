@@ -1,0 +1,59 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	align-items: flex-end;
+	text-transform: uppercase;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+header.Avengers{
+	background-position: center;
+	background-image: url("header.jpg");
+	background-size: cover;
+	height: 100%
+}
+
+header.Avengers hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F05F44;
+  text-transform: uppercase;
+}
+
+.btn btn-danger {
+  background-color: #F05F44;
+  border-color: #F05F44; 
+  text-transform: uppercase;
+}
+ .btn-danger:hover {
+  background-color: cyan;
+  border-color: black;
+  border-width: 5px;
+  cursor: wait;
+}
+
